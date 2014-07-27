@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...) {
         inv <- x$getINV()
         if(!is.null(inv))
         {
-          message('Returning the cached value of inverse')
+          message('Returning the cached value of matrix inverse')
           return(inv)
         }
         data <- x$get()
